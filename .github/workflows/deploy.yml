@@ -65,6 +65,9 @@ jobs:
     - name: 'tfsec'
       run: tfsec .
 
+    - name: "Terraform reconfigure the backend"
+      run: terraform init -reconfigure
+
     - name: 'Terraform Plan'
       run: terraform plan -out=tfplan
 
