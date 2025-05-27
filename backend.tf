@@ -1,4 +1,4 @@
-/*
+
 terraform {
   backend "s3" {
     bucket         = "my-tf-adamumj-bucket-0477"
@@ -7,7 +7,7 @@ terraform {
     encrypt = true
   }
 }
-*/ 
+
 
  
 terraform {
