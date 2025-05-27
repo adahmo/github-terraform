@@ -3,7 +3,7 @@ name: Terraform Cleanup
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/1 * * * *' # Runs every minute, adjust as needed
+    - cron: '*/1 * * * *' # Runs every minute, adjust as you want
 
 jobs:
   terraform-cleanup:
